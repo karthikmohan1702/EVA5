@@ -1,3 +1,9 @@
+The ipynb file here achieves an accuracy of 99.4 for the MNIST handwritten dataset using Pytorch Deeplearning Framework.
+
+The network includes Convolution layers, Max pooling & Global average pooling with Batch normalization & Dropouts to achieve the above mentioned accuracy.
+
+Here below are the Log of 20 epochs. The highest validation accuracy it clocked is 99.46
+
 Logs for 20 epochs
 
 loss=0.05680118873715401 batch_id=468: 100%|██████████| 469/469 [00:14<00:00, 33.01it/s]
