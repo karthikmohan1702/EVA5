@@ -24,6 +24,18 @@ This assignment objective was to achieve test accuracy as 99.4% consistently in 
     3. Training is working fine & can see consistent increase in the training accuracy as we progress through epochs
     4. Will need to make the model lighter in the next step.
     
+            K	P	S	jin	nin nout RF	jout
+    INPUT				1		28	1	1
+    CONV	3	0	1	1	28	26	3	1
+    CONV	3	0	1	1	26	24	5	1
+    CONV	3	0	1	1	24	22	7	1
+    MAX	    2	0	2	1	22	11	8	2
+    CONV	1	0	1	2	11	11	8	2
+    CONV	3	0	1	2	11	9	12	2
+    CONV	3	0	1	2	9	7	16	2
+    CONV	5	0	1	2	7	3	24	2
+
+    
 
 2_Lighter_model_&_batch_norm
 ---------------------------------
