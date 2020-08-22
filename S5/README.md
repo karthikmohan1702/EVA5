@@ -62,17 +62,17 @@ This assignment objective was to achieve test accuracy as 99.4% consistently in 
        the model is overfitting & in the next steps we can use regularization to penalize.
        
  
-            K	P	S	    jin	    nin     nout   RF   jout
-    INPUT				    1		   28	    1	   1
-    CONV	3	0	1	    1	    28	    26	    3	   1
-    CONV	3	0	1	    1	    26	    24	    5	   1
-    CONV	3	0	1	    1	    24	    22	    7	   1
-    MAX	    2	0	2	    1	    22	    11	    8	   2
-    CONV	1	0	1	    2	    11	    11	    8	   2
-    CONV	3	0	1	    2	    11	    9	    12	   2
-    CONV	3	0	1	    2	    9	    7	    16	   2
-    CONV	5	0	1	    2	    7	    3	    24	   2
-    
+                K	P	S	    jin	    nin     nout   RF   jout
+        INPUT				    1		   28	    1	   1
+        CONV	3	0	1	    1	    28	    26	    3	   1
+        CONV	3	0	1	    1	    26	    24	    5	   1
+        CONV	3	0	1	    1	    24	    22	    7	   1
+        MAX	    2	0	2	    1	    22	    11	    8	   2
+        CONV	1	0	1	    2	    11	    11	    8	   2
+        CONV	3	0	1	    2	    11	    9	    12	   2
+        CONV	3	0	1	    2	    9	    7	    16	   2
+        CONV	5	0	1	    2	    7	    3	    24	   2
+
 
 3_Regularization_GAP_&_Max_Pool
 -------------------------------------
