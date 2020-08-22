@@ -104,7 +104,7 @@ This assignment objective was to achieve test accuracy as 99.4% consistently in 
     5)	Now we want to push 99.20 (test acc) towards our goal 99.4.
     6)	Can see image samples being tilted at few degrees, can implement image augmentation to tackle such images.
     
-                K	P	S	jin	nin 	nout	RF	jout
+                    K	P	S	jin	nin 	nout	RF	jout
             INPUT				1		28	1	1
             CONV	3	0	1	1	28	26	3	1
             CONV	3	0	1	1	26	24	5	1
