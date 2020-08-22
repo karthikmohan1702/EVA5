@@ -89,14 +89,14 @@ PART_4_Image_augmentation_LR
     Results
     =======
     1) Parameters: 9924
-    2) Best Train Accuracy: 98.95
-    3) Best Test Accuracy: 99.20
+    2) Best Train Accuracy: 99.06
+    3) Best Test Accuracy: 99.45
 
     Analysis
     1)	Started with 5deg rotation following on to 6 & 7, checking how it would change the train & test accuracies, 
-        5deg fitted well & yielded an accuracy close to our expected one. The train = 98.84 & test = 99.34. 
+        6deg fitted well & yielded an accuracy closer to our expected one. The train = 98.84 & test = 99.34. 
         since test data had few of these images which had their rotation w.r.t train dataset.
-    2)	Tweaking learning rate without LR scheduler – played around with different learning rates & used LR scheduler, 
+    2)	Tweaking learning rate with LR scheduler – played around with different learning rates & used LR scheduler, 
         by tweaking the step size was giving good results & was effective at every 5th epoch (step size) reducing the LR by 10th.
 
 
