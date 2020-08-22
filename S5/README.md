@@ -4,7 +4,7 @@ S5 Assignment
 This assignment objective was to achieve test accuracy as 99.4% consistently in the last 4-5 epochs, with less than 10k params & under 15 epochs. It was said, to mention it in 4 steps(or models). 4 jupyter files are placed and the 4 steps are explained below along with their Receptive field.
 
 
-Part_1_Setup_&_Basic_Skeleton
+1_Setup_&_Basic_Skeleton
 -----------------------------
     Target
     ======
@@ -25,7 +25,7 @@ Part_1_Setup_&_Basic_Skeleton
     4. Will need to make the model lighter in the next step.
     
 
-Part_2_Lighter_model_&_batch_norm
+2_Lighter_model_&_batch_norm
 ---------------------------------
     Target
     ======
@@ -49,7 +49,7 @@ Part_2_Lighter_model_&_batch_norm
        the model is overfitting & in the next steps we can use regularization to penalize.
     
 
-Part_3_Regularization_GAP_&_Max_Pool
+3_Regularization_GAP_&_Max_Pool
 -------------------------------------
     Target
     ======
@@ -80,7 +80,7 @@ Part_3_Regularization_GAP_&_Max_Pool
     6)	Can see image samples being tilted at few degrees, can implement image augmentation to tackle such images.
 
 
-PART_4_Image_augmentation_LR
+4_Image_augmentation_LR
 ----------------------------
     Target
     ======
