@@ -25,7 +25,7 @@ This assignment objective was to achieve test accuracy as 99.4% consistently in 
     4. Will need to make the model lighter in the next step.
     
             K	P	S	jin	    nin     nout   RF   jout
-    INPUT				1		__       28	    1	   1
+    INPUT				1		 28	    1	   1
     CONV	3	0	1	1	    28	    26	    3	   1
     CONV	3	0	1	1	    26	    24	    5	   1
     CONV	3	0	1	1	    24	    22	    7	   1
