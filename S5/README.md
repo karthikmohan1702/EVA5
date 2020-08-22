@@ -66,8 +66,10 @@ Part 3 Regularization, GAP & Max Pooling
 
     Analysis
     ========
-    1)	Started with randomly placing of dropouts, but the test accuracy didn’t flinch much
-    2)	Following added GAP to reduce the no. of params in the model approx. to 8k params, 
+    1)	Started with randomly placing of dropouts, but the test accuracy didn’t flinch much, 
+        so later added dropout to all the layers, noticing the significant difference in accuracies
+        (test was getting better)
+    2)	Following added GAP to reduce the no. of params in the model, reduced approx. to 8k params, 
         where the accuracy was drawn down but the gap between test & 
         train accuracy was less but test accuracy was far from the expected one 
         (Both train & test were closed to 98%).
