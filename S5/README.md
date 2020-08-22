@@ -49,8 +49,8 @@ Part_2_Lighter_model_&_batch_norm
        the model is overfitting & in the next steps we can use regularization to penalize.
     
 
-Part 3 Regularization, GAP & Max Pooling
-----------------------------------------
+Part_3_Regularization_GAP_&_Max_Pool
+-------------------------------------
     Target
     ======
     1) Adding regularization – Dropout
