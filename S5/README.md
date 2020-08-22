@@ -40,8 +40,13 @@ Part_2_Lighter_model_&_batch_norm
 
     Analysis
     ========
-    1) Before applying Batch norm - Made the model lighter by reducing channels but accuracy was dropped for both the train & test due to less number of parameters. And also          can see no overfitting. The train_acc = 98.89 & test_acc = 98.91, gap seems to be less between them.
-    2) After adding Batch norm – Could see a significant increase in both the accuracies test & train. This tells how much powerful batch norm is & now it has accentuated the          features by uplifting them. The train_acc = 99.76 & test_acc = 99.30. Seems to be large gap between train & test accuracy which states the model is overfitting & in the        next steps we can use regularization to penalize.
+    1) Before applying Batch norm - Made the model lighter by reducing channels but accuracy was dropped for 
+       both the train & test due to less number of parameters. And also can see no overfitting. 
+       The train_acc = 98.89 & test_acc = 98.91, gap seems to be less between them.
+    2) After adding Batch norm – Could see a significant increase in both the accuracies test & train. 
+       This tells how much powerful batch norm is & now it has accentuated the features by uplifting them.
+       The train_acc = 99.76 & test_acc = 99.30. Seems to be large gap between train & test accuracy which states 
+       the model is overfitting & in the next steps we can use regularization to penalize.
     
 
 Part 3 Regularization, GAP & Max Pooling
@@ -85,10 +90,11 @@ PART_4_Image_augmentation_LR
     3) Best Test Accuracy: 99.20
 
     Analysis
-    1)	Started with 5deg rotation following on to 6 & 7, checking how it would change the train & test accuracies, 5deg fitted well & yielded an accuracy close to our 
-        expected one. The train = 98.84 & test = 99.34. since test data had few of these images which had their rotation w.r.t train dataset.
-    2)	Tweaking learning rate without LR scheduler – played around with different learning rates & used LR scheduler, by tweaking the step size was giving good results 
-        & was effective at every 5th epoch (step size) reducing the LR by 10th.
+    1)	Started with 5deg rotation following on to 6 & 7, checking how it would change the train & test accuracies, 
+        5deg fitted well & yielded an accuracy close to our expected one. The train = 98.84 & test = 99.34. 
+        since test data had few of these images which had their rotation w.r.t train dataset.
+    2)	Tweaking learning rate without LR scheduler – played around with different learning rates & used LR scheduler, 
+        by tweaking the step size was giving good results & was effective at every 5th epoch (step size) reducing the LR by 10th.
 
 
 
