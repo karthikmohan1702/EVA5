@@ -140,6 +140,20 @@ This assignment objective was to achieve test accuracy as 99.4% consistently in 
         since test data had few of these images which had their rotation w.r.t train dataset.
     2)	Tweaking learning rate with LR scheduler – played around with different learning rates & used LR scheduler, 
         by tweaking the step size was giving good results & was effective at every 5th epoch (step size) reducing the LR by 10th.
+        
+        
+                    K	P	S	jin	nin 	nout	RF	jout
+            INPUT				1		28	1	1
+            CONV	3	0	1	1	28	26	3	1
+            CONV	3	0	1	1	26	24	5	1
+            MAX	2	0	2	1	24	12	6	2
+            CONV	3	0	1	2	12	10	10	2
+            CONV	1	0	1	2	10	10	10	2
+            CONV	3	0	1	2	10	8	14	2
+            CONV	3	0	1	2	8	6	18	2
+            CONV	3	0	1	2	6	4	22	2
+            GAP	4	0	1	2	4	1	28	2
+            CONV	1	0	1	2	1	1	28	2
 
 
 
