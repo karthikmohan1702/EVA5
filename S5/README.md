@@ -60,8 +60,9 @@ This assignment objective was to achieve test accuracy as 99.4% consistently in 
        The train_acc = 99.76 & test_acc = 99.30. Seems to be large gap between train & test accuracy which states 
        the model is overfitting & in the next steps we can use regularization to penalize.
        
+    
             K	P	S	jin	    nin     nout   RF   jout
-    INPUT				1		28	    1	    1
+    INPUT				1		   28	    1	   1
     CONV	3	0	1	1	    28	    26	    3	   1
     CONV	3	0	1	1	    26	    24	    5	   1
     CONV	3	0	1	1	    24	    22	    7	   1
@@ -102,6 +103,20 @@ This assignment objective was to achieve test accuracy as 99.4% consistently in 
         led an accuracy about train = 98.90 & test = 99.20. (Model not OVERFITTING)
     5)	Now we want to push 99.20 (test acc) towards our goal 99.4.
     6)	Can see image samples being tilted at few degrees, can implement image augmentation to tackle such images.
+    
+                K	P	S	jin	    nin 	nout	RF	    jout
+        INPUT				1		        28	    1	    1
+        CONV	3	0	1	1	    28	    26	    3   	1
+        CONV	3	0	1	1	    26	    24	    5	    1
+        MAX	    2	0	2	1	    24	    12	    6	    2
+        CONV	3	0	1	2	    12	    10	    10	    2
+        CONV	1	0	1	2	    10	    10	    10	    2
+        CONV	3	0	1	2	    10	    8	    14	    2
+        CONV	3	0	1	2	    8	    6	    18	    2
+        CONV	3	0	1	2	    6	    4	    22	    2
+        GAP	    4	0	1	2	    4	    1	    28	    2
+        CONV	1	0	1	2	    1	    1	    28	    2
+
 
 
 4_Image_augmentation_LR
