@@ -67,10 +67,13 @@ Part 3 Regularization, GAP & Max Pooling
     Analysis
     ========
     1)	Started with randomly placing of dropouts, but the test accuracy didn’t flinch much
-    2)	Following added GAP to reduce the no. of params in the model approx. to 8k params, where the accuracy was drawn down but the gap between test & 
-        train accuracy was less but test accuracy was far from the expected one (Both train & test were closed to 98%).
+    2)	Following added GAP to reduce the no. of params in the model approx. to 8k params, 
+        where the accuracy was drawn down but the gap between test & 
+        train accuracy was less but test accuracy was far from the expected one 
+        (Both train & test were closed to 98%).
     3)	To increase the params, added a layer after gap to increase the efficiency of the model. 
-    4)	Since MNIST finds the edges at the RF of 5, rearranged the max pooling operation which led an accuracy about train = 98.90 & test = 99.20. (Model not OVERFITTING)
+    4)	Since MNIST finds the edges at the RF of 5, rearranged the max pooling operation which
+        led an accuracy about train = 98.90 & test = 99.20. (Model not OVERFITTING)
     5)	Now we want to push 99.20 (test acc) towards our goal 99.4.
     6)	Can see image samples being tilted at few degrees, can implement image augmentation to tackle such images.
 
