@@ -25,7 +25,7 @@ Part_1_Setup_&_Basic_Skeleton
     4. Will need to make the model lighter in the next step.
     
 
-Part_1_Lighter_model_&_batch_norm
+Part_2_Lighter_model_&_batch_norm
 ---------------------------------
     Target
     ======
