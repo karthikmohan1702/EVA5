@@ -6,4 +6,12 @@ This assignment objective was to achieve test accuracy as 99.4% consistently in 
 
 Part_1_Setup_&_Basic_Skeleton
 -----------------------------
-Target
+    Target
+    ======
+    1) Setting up a basic skeleton of the model
+    2) Setting transforms, dataloads & training & test loops
+    3) Set it as working code.
+
+    Results
+    ======
+
